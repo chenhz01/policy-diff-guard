@@ -4,6 +4,8 @@
 
 ---
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Runtime guardrails see violations only *during* execution — after the merge, after the deploy, sometimes after the damage. The interesting question for a reviewer is earlier and narrower: **"compared to the current policy, what can the agent reach that it could not reach before?"** Answering that by eyeballing a JSON diff fails for three reasons:
